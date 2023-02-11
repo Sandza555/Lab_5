@@ -29,10 +29,10 @@
   }
   
   .top-header {
-    background-color: rgb(231, 110, 255);
+    background-color: #62D7FF;
   }
   
-  .menu-item {
+  .menu {
     color: white;
     padding: 15px;
     display: inline-block;

@@ -1,0 +1,127 @@
+.top-header {
+    background-color: #62D7FF;
+}
+.menu {
+    color: #FFFFFF;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.body-color {
+    background-color: #BF93FF;
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: #8F8F8F;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 120px;
+    transform: translate(-50%,-50%);
+}
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+}
+#newtask input{
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #ffffff;
+}
+
+#newtask input:focus{
+    outline: none;
+    border-color: #fff3f9;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #2fbb25;
+    border: none;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#newtask button:hover{
+    background-color: #4d8d4d; 
+    color: white;
+}
+#tasks{
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #0C8BB7;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #f2964a;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+
+}
+
+.task button:hover {
+    background-color: #FF030F; 
+    color: white;
+  }
+
+.textcenter {
+    text-align: center;
+}
+.footer {
+    height: 25px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 165, 47);
+    color: white;
+    text-align: center;
+  }
